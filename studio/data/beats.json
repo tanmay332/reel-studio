@@ -1,0 +1,291 @@
+{
+ "hook": {
+  "lines": [
+   "Everyone's worried about AI taking their jobs.",
+   "Here's my take"
+  ],
+  "slam": "JOBS",
+  "mark": "jobs."
+ },
+ "keywords": [
+  "worried",
+  "jobs",
+  "take",
+  "cooked",
+  "differently",
+  "ten",
+  "hundred",
+  "valuable",
+  "2024",
+  "three",
+  "game",
+  "upskill",
+  "weapon"
+ ],
+ "impact": [
+  "worried",
+  "take.",
+  "cooked.",
+  "differently.",
+  "ten",
+  "valuable.",
+  "2024",
+  {
+   "word": "cooked",
+   "nth": 2
+  },
+  "weapon"
+ ],
+ "big": [
+  "cooked.",
+  "valuable.",
+  "weapon"
+ ],
+ "beats": [
+  {
+   "id": "b1",
+   "label": "Hook",
+   "start": 0,
+   "end": 5.8,
+   "hook": true
+  },
+  {
+   "id": "b2",
+   "label": "The fear",
+   "start": 5.8,
+   "end": 15.78,
+   "options": [
+    {
+     "id": "b2-chat",
+     "kind": "chat",
+     "label": "Glass window asks the question",
+     "style": "glass",
+     "title": "Claude",
+     "y": 210,
+     "lines": [
+      {
+       "text": "Will Claude Code replace developers?",
+       "at": "claude"
+      }
+     ],
+     "until": "natural"
+    },
+    {
+     "id": "b2-fall",
+     "kind": "graphic",
+     "art": "fall",
+     "label": "Line chart falls away",
+     "at": "natural",
+     "until": "end",
+     "dur": 1.6,
+     "caption": "Demand for developers"
+    },
+    {
+     "id": "b2-word",
+     "kind": "word",
+     "label": "“Cooked” surfaces",
+     "items": [
+      {
+       "text": "Cooked",
+       "at": "absolutely",
+       "hold": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "label": "The twist",
+   "start": 15.78,
+   "end": 17.46,
+   "options": [
+    {
+     "id": "b3-fork",
+     "kind": "graphic",
+     "art": "fork",
+     "label": "The road splits",
+     "at": "i",
+     "until": "end",
+     "dur": 1.0,
+     "caption": "A different view"
+    },
+    {
+     "id": "b3-word",
+     "kind": "word",
+     "label": "“I think differently” surfaces",
+     "items": [
+      {
+       "text": "I think differently",
+       "at": "actually"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "label": "The valuable dev",
+   "start": 17.46,
+   "end": 30.46,
+   "options": [
+    {
+     "id": "b4-grid",
+     "kind": "graphic",
+     "art": "grid",
+     "label": "Ten session windows open",
+     "at": "ten",
+     "until": "delivering",
+     "dur": 1.2,
+     "caption": "Ten Claude sessions"
+    },
+    {
+     "id": "b4-words",
+     "kind": "word",
+     "label": "Ten Claude sessions · Extremely valuable",
+     "items": [
+      {
+       "text": "Ten Claude sessions",
+       "at": "ten",
+       "hold": 3
+      },
+      {
+       "text": "Extremely valuable",
+       "at": "extremely",
+       "hold": 2
+      }
+     ]
+    },
+    {
+     "id": "b4-rise",
+     "kind": "graphic",
+     "art": "rise",
+     "label": "Line chart climbs",
+     "at": "then",
+     "until": "end",
+     "dur": 1.4,
+     "caption": "Your value"
+    },
+    {
+     "id": "b4-count",
+     "kind": "count",
+     "quiet": true,
+     "label": "0 → 100× counts up, quietly",
+     "at": "hundred",
+     "to": 100,
+     "suffix": "×",
+     "caption": "The output of engineers",
+     "until": "then"
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "label": "The cooked dev",
+   "start": 30.46,
+   "end": 42.94,
+   "options": [
+    {
+     "id": "b5-calendar",
+     "kind": "graphic",
+     "art": "calendar",
+     "label": "Calendar stuck on 2024",
+     "at": "still",
+     "until": "three",
+     "dur": 1.0
+    },
+    {
+     "id": "b5-words",
+     "kind": "word",
+     "label": "Still in 2024 · Game over",
+     "items": [
+      {
+       "text": "Still in 2024",
+       "at": "2024"
+      },
+      {
+       "text": "Game over",
+       "at": "game"
+      }
+     ]
+    },
+    {
+     "id": "b5-timeline",
+     "kind": "timeline",
+     "label": "Timeline: Day 1 → Day 3, one-page website",
+     "at": "three",
+     "dur": 1.4,
+     "captionAt": "one-page",
+     "caption": "for a one-page website",
+     "until": "cooked,"
+    },
+    {
+     "id": "b5-flat",
+     "kind": "graphic",
+     "art": "flat",
+     "label": "Pulse goes flat",
+     "at": "cooked,",
+     "until": "end",
+     "dur": 1.3,
+     "caption": "Game over"
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "label": "The fix",
+   "start": 42.94,
+   "end": 51.0,
+   "options": [
+    {
+     "id": "b6-notes",
+     "kind": "chat",
+     "label": "Glass notes type the 3 steps",
+     "style": "glass",
+     "title": "The fix",
+     "y": 200,
+     "lines": [
+      {
+       "text": "Upskill in AI",
+       "at": "upskill"
+      },
+      {
+       "text": "Learn Claude Code",
+       "at": "learn"
+      },
+      {
+       "text": "Become an absolute weapon",
+       "at": "become"
+      }
+     ],
+     "until": "end",
+     "soundOnce": true
+    },
+    {
+     "id": "b6-steps",
+     "kind": "steps",
+     "quiet": true,
+     "label": "01 → 02 → 03, quietly",
+     "items": [
+      {
+       "n": 1,
+       "text": "Upskill in AI",
+       "at": "upskill"
+      },
+      {
+       "n": 2,
+       "text": "Learn Claude Code",
+       "at": "learn"
+      },
+      {
+       "n": 3,
+       "text": "Become a weapon",
+       "at": "become"
+      }
+     ],
+     "until": "end"
+    }
+   ]
+  }
+ ]
+}

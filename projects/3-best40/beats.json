@@ -1,0 +1,271 @@
+{
+  "hook": {
+    "lines": [
+      "Want to stay broke?",
+      "Take advice from people behind you."
+    ],
+    "slam": "BROKE?",
+    "mark": "broke?"
+  },
+  "impact": [
+    "broke,",
+    "multimillionaire.",
+    "held",
+    "wrong",
+    {
+      "word": "built",
+      "nth": 2
+    },
+    "identify",
+    "quicker"
+  ],
+  "big": [
+    "broke,",
+    "held",
+    "quicker"
+  ],
+  "beats": [
+    {
+      "id": "b1",
+      "label": "Hook",
+      "start": 0,
+      "end": 3.45,
+      "hook": true
+    },
+    {
+      "id": "b2",
+      "label": "The story",
+      "start": 3.45,
+      "end": 8.77,
+      "options": [
+        {
+          "id": "b2-page",
+          "kind": "page",
+          "label": "Wikipedia page slides in",
+          "at": "private",
+          "until": "end"
+        },
+        {
+          "id": "b2-split",
+          "kind": "split",
+          "label": "Split: page on top, you low",
+          "at": "private",
+          "until": "end"
+        },
+        {
+          "id": "b2-highlight",
+          "kind": "highlight",
+          "label": "Highlight the definition",
+          "at": "private",
+          "hl": "wanted",
+          "until": "end"
+        },
+        {
+          "id": "b2-count",
+          "kind": "count",
+          "label": "$0 → $1,000,000 counts up",
+          "at": {
+            "word": "wanted",
+            "nth": 2
+          },
+          "to": 1000000,
+          "prefix": "$",
+          "caption": "the goal",
+          "until": "end"
+        },
+        {
+          "id": "b2-keyword",
+          "kind": "keyword",
+          "label": "MULTIMILLIONAIRE slams in",
+          "items": [
+            {
+              "text": "MULTIMILLIONAIRE",
+              "at": "multimillionaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "label": "The mistake",
+      "start": 8.77,
+      "end": 18.32,
+      "options": [
+        {
+          "id": "b3-chat",
+          "kind": "chat",
+          "label": "Chat window types the question",
+          "style": "chat",
+          "title": "New chat",
+          "lines": [
+            {
+              "text": "Who should I take advice from?",
+              "at": "taking"
+            }
+          ],
+          "until": "not"
+        },
+        {
+          "id": "b3-emoji",
+          "kind": "emoji",
+          "label": "🚩 pops on “not built companies”",
+          "items": [
+            {
+              "char": "🚩",
+              "at": "not"
+            }
+          ]
+        },
+        {
+          "id": "b3-keyword",
+          "kind": "keyword",
+          "label": "HELD ME BACK slams in",
+          "items": [
+            {
+              "text": "HELD ME BACK",
+              "at": "held"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "label": "The turn",
+      "start": 18.32,
+      "end": 31.73,
+      "options": [
+        {
+          "id": "b4-keyword",
+          "kind": "keyword",
+          "label": "CHANGED MY LIFE slams in",
+          "items": [
+            {
+              "text": "CHANGED MY LIFE",
+              "at": "changed"
+            }
+          ]
+        },
+        {
+          "id": "b4-list",
+          "kind": "keyword",
+          "label": "BUILT COMPANIES · TIME FREEDOM",
+          "items": [
+            {
+              "text": "BUILT COMPANIES",
+              "at": "built"
+            },
+            {
+              "text": "TIME FREEDOM",
+              "at": "time"
+            }
+          ]
+        },
+        {
+          "id": "b4-time",
+          "kind": "keyword",
+          "label": "TIME FREEDOM",
+          "items": [
+            {
+              "text": "TIME FREEDOM",
+              "at": "time"
+            }
+          ]
+        },
+        {
+          "id": "b4-emoji",
+          "kind": "emoji",
+          "label": "🏢 and ⏳ pop on the proof",
+          "items": [
+            {
+              "char": "🏢",
+              "at": "built"
+            },
+            {
+              "char": "⏳",
+              "at": "time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "label": "The fix",
+      "start": 31.73,
+      "end": 38.81,
+      "options": [
+        {
+          "id": "b5-notes",
+          "kind": "chat",
+          "label": "Notes window types the 3 steps",
+          "style": "notes",
+          "title": "Notes",
+          "lines": [
+            {
+              "text": "1. Identify where you want to go",
+              "at": "identify"
+            },
+            {
+              "text": "2. Find people who've done it",
+              "at": "find"
+            },
+            {
+              "text": "3. Get their advice",
+              "at": "get"
+            }
+          ],
+          "until": "end",
+          "soundOnce": true
+        },
+        {
+          "id": "b5-steps",
+          "kind": "steps",
+          "label": "Step counter 1 → 2 → 3",
+          "items": [
+            {
+              "n": 1,
+              "text": "Know where",
+              "at": "identify"
+            },
+            {
+              "n": 2,
+              "text": "Find them",
+              "at": "find"
+            },
+            {
+              "n": 3,
+              "text": "Ask them",
+              "at": "get"
+            }
+          ],
+          "until": "end",
+          "soundOnce": true
+        },
+        {
+          "id": "b5-keyword",
+          "kind": "keyword",
+          "label": "GET THEIR ADVICE slams in",
+          "items": [
+            {
+              "text": "GET THEIR ADVICE",
+              "at": "get"
+            }
+          ]
+        },
+        {
+          "id": "b5-emoji",
+          "kind": "emoji",
+          "label": "🚀 pops on “get ahead”",
+          "items": [
+            {
+              "char": "🚀",
+              "at": "ahead"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

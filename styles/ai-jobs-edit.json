@@ -1,0 +1,46 @@
+{
+  "name": "AI jobs edit",
+  "savedAt": "2026-10-30T16:20:00",
+  "clip": "img3052-ai-jobs-cut-v2",
+  "start": true,
+  "default": true,
+  "note": "Quiet luxury: Cormorant Garamond / Work Sans, cream ink, quiet serif-accent captions, editorial hook, hairline line graphics that draw on (no words on top), glass windows above the head, Day 1-3 timeline, close-ups on alternate shots. No slams, no emojis, no pops. Opens fully loaded.",
+  "picks": {
+    "grade": "quiet",
+    "font": "luxury",
+    "caption": "quiet",
+    "hook": "editorial",
+    "ink": "#FFFFFF",
+    "accent": "#E8E3D1",
+    "moves": [
+      "closeup"
+    ],
+    "anims": {
+      "b2": [
+        "b2-chat",
+        "b2-fall"
+      ],
+      "b3": [
+        "b3-fork"
+      ],
+      "b4": [
+        "b4-grid",
+        "b4-count",
+        "b4-rise"
+      ],
+      "b5": [
+        "b5-calendar",
+        "b5-timeline",
+        "b5-flat"
+      ],
+      "b6": [
+        "b6-notes"
+      ]
+    },
+    "sounds": [
+      "typing"
+    ],
+    "off": [],
+    "mute": []
+  }
+}

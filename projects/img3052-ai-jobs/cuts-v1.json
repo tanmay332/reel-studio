@@ -1,0 +1,72 @@
+{
+  "source": "clips/img3052.mp4",
+  "output": "projects/img3052-ai-jobs/renders/img3052-ai-jobs-cut-v1.mp4",
+  "segments": [
+    {
+      "in": 4.28,
+      "out": 9.26,
+      "note": "hook: Everyone is super worried about AI taking their jobs. I've hired over 100 people,",
+      "text": "Everyone is super worried about AI taking their jobs. I've hired over 100 people,"
+    },
+    {
+      "in": 11.58,
+      "out": 12.4,
+      "note": "turn: Here's my take.",
+      "text": "Here's my take."
+    },
+    {
+      "in": 16.84,
+      "out": 26.82,
+      "note": "common belief: Claude Code can write code very quickly, very efficiently, and a lot better than most developers. So the natural opinion here is that all developers are absolutely cooked.",
+      "text": "Claude Code can write code very quickly, very efficiently, and a lot better than most developers. So the natural opinion here is that all developers are absolutely cooked."
+    },
+    {
+      "in": 30.46,
+      "out": 31.36,
+      "note": "twist: I actually think",
+      "text": "I actually think"
+    },
+    {
+      "in": 31.8,
+      "out": 32.58,
+      "note": "twist (pause tightened): a bit differently.",
+      "text": "a bit differently."
+    },
+    {
+      "in": 32.94,
+      "out": 35.0,
+      "note": "winner: If you're a developer that can sit there,",
+      "text": "If you're a developer that can sit there,"
+    },
+    {
+      "in": 37.18,
+      "out": 40.72,
+      "note": "winner (cut: working eight hours a day): and you've got ten Claude sessions open at once,",
+      "text": "and you've got ten Claude sessions open at once,"
+    },
+    {
+      "in": 43.6,
+      "out": 51.0,
+      "note": "winner (cut: building ten things / in the money): delivering the output of like a hundred engineers in one day, then you are extremely valuable.",
+      "text": "delivering the output of like a hundred engineers in one day, then you are extremely valuable."
+    },
+    {
+      "in": 53.58,
+      "out": 62.54,
+      "note": "loser: On the other hand, if you are a developer that is still operating like it's 2024, and taking three days to build a one-page website,",
+      "text": "On the other hand, if you are a developer that is still operating like it's 2024, and taking three days to build a one-page website,"
+    },
+    {
+      "in": 65.22,
+      "out": 68.74,
+      "note": "loser (cut: database and sign-up forms): then you're absolutely cooked, like, it's game over for you.",
+      "text": "then you're absolutely cooked, like, it's game over for you."
+    },
+    {
+      "in": 87.3,
+      "out": 95.36,
+      "note": "CTA (cut: AI-native section): So, upskill in AI, learn how to use Claude Code, and become an absolute weapon with using it.",
+      "text": "So, upskill in AI, learn how to use Claude Code, and become an absolute weapon with using it."
+    }
+  ]
+}

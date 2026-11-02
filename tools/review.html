@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cut Review</title>
+<style>
+  :root { --bg:#0f1012; --panel:#17181b; --line:#26282d; --text:#e8e8ea; --dim:#8b8d94; --accent:#ffb020; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { display:flex; align-items:center; gap:10px; padding:10px 14px; border-bottom:1px solid var(--line); flex-wrap:wrap; }
+  header h1 { font-size:14px; margin:0; font-weight:600; }
+  header .meta { color:var(--dim); font-size:12px; }
+  header .spacer { flex:1; }
+  select, button { background:var(--panel); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:5px 9px; font:inherit; font-size:12px; cursor:pointer; }
+  button.on { border-color:var(--accent); color:var(--accent); }
+  main { display:flex; gap:14px; padding:14px; align-items:flex-start; }
+  .player { flex:0 0 auto; width:min(340px, 42vw); position:sticky; top:14px; }
+  video { width:100%; aspect-ratio:9/16; background:#000; border-radius:10px; display:block; }
+  .now { margin-top:8px; font-size:12px; color:var(--dim); font-variant-numeric:tabular-nums; }
+  .now b { color:var(--accent); }
+  .strip { display:flex; height:10px; margin-top:8px; gap:2px; position:relative; }
+  .strip div { background:var(--line); border-radius:2px; cursor:pointer; }
+  .strip div.cur { background:var(--accent); }
+  .cuts { flex:1; min-width:0; display:flex; flex-direction:column; gap:6px; }
+  .cut { display:grid; grid-template-columns:30px 1fr; gap:8px; padding:9px 10px; background:var(--panel); border:1px solid var(--line); border-radius:8px; cursor:pointer; }
+  .cut:hover { border-color:#3a3d44; }
+  .cut.cur { border-color:var(--accent); }
+  .num { font-weight:700; font-size:16px; color:var(--dim); }
+  .cut.cur .num { color:var(--accent); }
+  .times { font-size:11px; color:var(--dim); font-variant-numeric:tabular-nums; }
+  .help { color:var(--dim); font-size:12px; padding:0 14px 14px; }
+  kbd { border:1px solid var(--line); border-radius:4px; padding:0 4px; font-size:11px; }
+  @media (max-width: 560px) {
+    main { flex-direction:column; }
+    .player { width:100%; max-width:340px; position:static; margin:0 auto; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Cut review</h1>
+  <span class="meta" id="meta"></span>
+  <span class="spacer"></span>
+  <select id="version" aria-label="Version"></select>
+  <button id="loop" title="Loop the current cut (L)">Loop cut</button>
+</header>
+<main>
+  <div class="player">
+    <video id="video" controls playsinline preload="auto"></video>
+    <div class="strip" id="strip"></div>
+    <div class="now" id="now"></div>
+  </div>
+  <div class="cuts" id="cuts"></div>
+</main>
+<p class="help"><kbd>Space</kbd> play/pause · <kbd>←</kbd><kbd>→</kbd> previous/next cut · <kbd>L</kbd> loop cut · click a cut to play it. Give notes by cut number, e.g. "cut 6: start a bit later".</p>
+<script>
+const params = new URLSearchParams(location.search);
+const project = params.get("p") || "projects/3-best40";
+const name = project.split("/").pop();
+const video = document.getElementById("video");
+let segs = [], current = -1, looping = false;
+
+const fmt = s => `${Math.floor(s / 60)}:${(s % 60).toFixed(1).padStart(4, "0")}`;
+
+async function findVersions() {
+  const found = [];
+  for (let v = 1; v <= 20; v++) {
+    const r = await fetch(`/${project}/cuts-v${v}.json`, { method: "HEAD" });
+    if (r.ok) found.push(v); else if (found.length) break;
+  }
+  return found;
+}
+
+async function load(v) {
+  const spec = await (await fetch(`/${project}/cuts-v${v}.json`)).json();
+  let t = 0;
+  segs = spec.segments.map((s, i) => {
+    const d = s.out - s.in, seg = { ...s, n: i + 1, start: t, end: t + d };
+    t += d;
+    return seg;
+  });
+  video.src = "/" + spec.output;
+  document.getElementById("title").textContent = name;
+  document.getElementById("meta").textContent = `${segs.length} cuts · ${t.toFixed(1)} s · ${spec.source}`;
+  const total = t;
+  document.getElementById("strip").innerHTML = segs.map(s =>
+    `<div style="flex:${(s.end - s.start) / total}" title="Cut ${s.n}" data-i="${s.n - 1}"></div>`).join("");
+  document.getElementById("cuts").innerHTML = segs.map(s => `
+    <div class="cut" data-i="${s.n - 1}">
+      <div class="num">${s.n}</div>
+      <div><div>${s.note || ""}</div>
+      <div class="times">reel ${fmt(s.start)}–${fmt(s.end)} · source ${fmt(s.in)}–${fmt(s.out)} · ${(s.end - s.start).toFixed(2)} s</div></div>
+    </div>`).join("");
+  current = -1;
+}
+
+function jump(i) {
+  if (i < 0 || i >= segs.length) return;
+  video.currentTime = segs[i].start + 0.001;
+  video.play();
+}
+
+function mark() {
+  const t = video.currentTime;
+  const i = segs.findIndex(s => t >= s.start && t < s.end);
+  if (looping && current >= 0 && (t >= segs[current].end || i !== current) && !video.paused) {
+    video.currentTime = segs[current].start;
+    return;
+  }
+  if (i !== current && i >= 0) {
+    current = i;
+    document.querySelectorAll("[data-i]").forEach(el => el.classList.toggle("cur", +el.dataset.i === i));
+    document.querySelector(`.cut[data-i="${i}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
+  document.getElementById("now").innerHTML = current >= 0
+    ? `<b>Cut ${current + 1}</b> · ${fmt(t)} / ${fmt(segs.at(-1).end)}` : fmt(t);
+}
+
+video.addEventListener("timeupdate", mark);
+(function tick() { if (!video.paused) mark(); requestAnimationFrame(tick); })();
+document.addEventListener("click", e => {
+  const el = e.target.closest("[data-i]");
+  if (el) jump(+el.dataset.i);
+});
+document.getElementById("loop").onclick = () => {
+  looping = !looping;
+  document.getElementById("loop").classList.toggle("on", looping);
+};
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "SELECT") return;
+  if (e.key === " ") { e.preventDefault(); video.paused ? video.play() : video.pause(); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); jump(current + 1); }
+  else if (e.key === "ArrowLeft") { e.preventDefault(); jump(current - 1); }
+  else if (e.key.toLowerCase() === "l") document.getElementById("loop").click();
+});
+
+(async () => {
+  const versions = await findVersions();
+  const sel = document.getElementById("version");
+  sel.innerHTML = versions.map(v => `<option value="${v}">v${v}</option>`).join("");
+  const start = params.get("v") || versions.at(-1);
+  sel.value = start;
+  sel.onchange = () => load(sel.value);
+  load(start);
+})();
+</script>
+</body>
+</html>

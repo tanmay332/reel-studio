@@ -1,0 +1,51 @@
+{
+ "picks": {
+  "grade": null,
+  "font": "editorial",
+  "caption": "twotone",
+  "hook": "split",
+  "moves": [
+   "progress",
+   "closeup",
+   "whip",
+   "punch"
+  ],
+  "anims": {
+   "b2": [
+    "b2-split"
+   ],
+   "b3": [
+    "b3-keyword"
+   ],
+   "b4": [
+    "b4-time",
+    "b4-emoji"
+   ],
+   "b5": [
+    "b5-notes",
+    "b5-steps"
+   ]
+  },
+  "sounds": [
+   "whoosh",
+   "pop",
+   "ping",
+   "typing",
+   "click"
+  ],
+  "off": [
+   "whip#b2",
+   "whip#b3",
+   "whip#b5",
+   "punch#0",
+   "punch#1",
+   "punch#2",
+   "punch#3",
+   "punch#4",
+   "punch#5"
+  ],
+  "mute": []
+ },
+ "data": "data-3-best40",
+ "note": "edit-v3 minus BUILT COMPANIES, the chat window and the $1,000,000 count"
+}

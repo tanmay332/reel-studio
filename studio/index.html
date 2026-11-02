@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reel Studio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%23ffb020'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo"></span>Reel Studio</div>
+  <select class="clip-pick" id="clipPick" aria-label="Clip you're editing" title="Switch clip"></select>
+  <button class="btn" id="addVideo">+ Add video</button>
+  <span class="spacer"></span>
+  <span class="saved-note" id="savedNote"></span>
+  <button class="btn primary" id="export">Export</button>
+</header>
+
+<div class="modal" id="importModal" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="importTitle">
+    <header><b id="importTitle">Add a video</b><button class="x" id="importClose" aria-label="Close">×</button></header>
+    <div class="sheet-body" id="importBody"></div>
+  </div>
+</div>
+
+<main class="app">
+  <section class="left">
+    <div class="player big" id="big"></div>
+    <div class="controls">
+      <button class="icon" id="play" aria-label="Play or pause"></button>
+      <input type="range" id="scrub" min="0" max="1000" value="0" aria-label="Scrub">
+      <span class="time" id="time">0:00</span>
+    </div>
+    <div class="controls">
+      <button class="chip" id="soundToggle">Sound off</button>
+      <span class="spacer"></span>
+      <div class="seg-switch" role="group" aria-label="Before and after">
+        <button data-view="raw">Raw</button><button data-view="edited" class="on">Edited</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="right">
+    <nav class="tabs" id="tabs"></nav>
+    <p class="help" id="help"></p>
+    <div class="body" id="body"></div>
+    <footer class="nav">
+      <button class="btn" id="back">Back</button>
+      <span class="hint">D demo · R reset</span>
+      <button class="btn primary" id="next">Next</button>
+    </footer>
+  </section>
+</main>
+
+<div class="toast" id="toast"></div>
+<div class="cursor" id="cursor"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M4 2l16 9-7 1.6L9.6 20z" fill="#fff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+
+<script src="looks.js"></script>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+<script src="importer.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>

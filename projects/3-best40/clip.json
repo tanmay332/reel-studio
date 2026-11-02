@@ -1,0 +1,672 @@
+{
+ "name": "3-best40-cut-v2",
+ "source": "projects/3-best40/renders/3-best40-cut-v2.mp4",
+ "video": "data/preview.mp4",
+ "proxy": "data/proxy.mp4",
+ "duration": 38.81,
+ "fps": 25,
+ "cuts": [
+  3.45,
+  8.77,
+  13.61,
+  16.62,
+  18.32,
+  20.23,
+  23.07,
+  28.72,
+  30.71,
+  31.73
+ ],
+ "words": [
+  {
+   "word": "So",
+   "start": 0.06,
+   "end": 0.22
+  },
+  {
+   "word": "if",
+   "start": 0.22,
+   "end": 0.39
+  },
+  {
+   "word": "you",
+   "start": 0.39,
+   "end": 0.56
+  },
+  {
+   "word": "wanna",
+   "start": 0.56,
+   "end": 0.86
+  },
+  {
+   "word": "stay",
+   "start": 0.86,
+   "end": 1.03
+  },
+  {
+   "word": "broke,",
+   "start": 1.03,
+   "end": 1.35
+  },
+  {
+   "word": "then",
+   "start": 1.35,
+   "end": 1.53
+  },
+  {
+   "word": "take",
+   "start": 1.53,
+   "end": 1.69
+  },
+  {
+   "word": "advice",
+   "start": 1.69,
+   "end": 2.02
+  },
+  {
+   "word": "from",
+   "start": 2.02,
+   "end": 2.19
+  },
+  {
+   "word": "people",
+   "start": 2.19,
+   "end": 2.36
+  },
+  {
+   "word": "that",
+   "start": 2.36,
+   "end": 2.62
+  },
+  {
+   "word": "are",
+   "start": 2.62,
+   "end": 2.92
+  },
+  {
+   "word": "behind",
+   "start": 2.92,
+   "end": 3.23
+  },
+  {
+   "word": "you.",
+   "start": 3.23,
+   "end": 3.42
+  },
+  {
+   "word": "When",
+   "start": 3.55,
+   "end": 3.71
+  },
+  {
+   "word": "I",
+   "start": 3.71,
+   "end": 3.87
+  },
+  {
+   "word": "was",
+   "start": 3.87,
+   "end": 4.03
+  },
+  {
+   "word": "working",
+   "start": 4.03,
+   "end": 4.31
+  },
+  {
+   "word": "in",
+   "start": 4.31,
+   "end": 4.48
+  },
+  {
+   "word": "private",
+   "start": 4.48,
+   "end": 4.8
+  },
+  {
+   "word": "equity,",
+   "start": 4.8,
+   "end": 5.28
+  },
+  {
+   "word": "I",
+   "start": 5.28,
+   "end": 5.44
+  },
+  {
+   "word": "wanted",
+   "start": 5.44,
+   "end": 5.82
+  },
+  {
+   "word": "to",
+   "start": 5.82,
+   "end": 5.99
+  },
+  {
+   "word": "build",
+   "start": 5.99,
+   "end": 6.2
+  },
+  {
+   "word": "businesses",
+   "start": 6.2,
+   "end": 6.71
+  },
+  {
+   "word": "and",
+   "start": 6.71,
+   "end": 6.88
+  },
+  {
+   "word": "I",
+   "start": 6.88,
+   "end": 7.04
+  },
+  {
+   "word": "wanted",
+   "start": 7.04,
+   "end": 7.36
+  },
+  {
+   "word": "to",
+   "start": 7.36,
+   "end": 7.6
+  },
+  {
+   "word": "become",
+   "start": 7.6,
+   "end": 7.92
+  },
+  {
+   "word": "a",
+   "start": 7.92,
+   "end": 8.09
+  },
+  {
+   "word": "multimillionaire.",
+   "start": 8.09,
+   "end": 8.75
+  },
+  {
+   "word": "I",
+   "start": 8.88,
+   "end": 9.14
+  },
+  {
+   "word": "ended",
+   "start": 9.14,
+   "end": 9.61
+  },
+  {
+   "word": "up",
+   "start": 9.61,
+   "end": 9.88
+  },
+  {
+   "word": "taking",
+   "start": 9.88,
+   "end": 10.36
+  },
+  {
+   "word": "advice",
+   "start": 10.36,
+   "end": 11.03
+  },
+  {
+   "word": "from",
+   "start": 11.03,
+   "end": 11.38
+  },
+  {
+   "word": "people",
+   "start": 11.38,
+   "end": 11.64
+  },
+  {
+   "word": "that",
+   "start": 11.64,
+   "end": 11.96
+  },
+  {
+   "word": "had",
+   "start": 11.96,
+   "end": 12.25
+  },
+  {
+   "word": "not",
+   "start": 12.25,
+   "end": 12.59
+  },
+  {
+   "word": "built",
+   "start": 12.59,
+   "end": 12.86
+  },
+  {
+   "word": "companies",
+   "start": 12.86,
+   "end": 13.55
+  },
+  {
+   "word": "and",
+   "start": 13.71,
+   "end": 13.84
+  },
+  {
+   "word": "had",
+   "start": 13.84,
+   "end": 13.97
+  },
+  {
+   "word": "never",
+   "start": 13.97,
+   "end": 14.26
+  },
+  {
+   "word": "done",
+   "start": 14.26,
+   "end": 14.39
+  },
+  {
+   "word": "anything",
+   "start": 14.39,
+   "end": 14.87
+  },
+  {
+   "word": "that",
+   "start": 14.87,
+   "end": 15.0
+  },
+  {
+   "word": "I",
+   "start": 15.0,
+   "end": 15.13
+  },
+  {
+   "word": "wanted",
+   "start": 15.16,
+   "end": 15.43
+  },
+  {
+   "word": "to",
+   "start": 15.43,
+   "end": 15.61
+  },
+  {
+   "word": "achieve",
+   "start": 15.61,
+   "end": 15.83
+  },
+  {
+   "word": "in",
+   "start": 15.83,
+   "end": 16.05
+  },
+  {
+   "word": "the",
+   "start": 16.05,
+   "end": 16.2
+  },
+  {
+   "word": "future.",
+   "start": 16.2,
+   "end": 16.54
+  },
+  {
+   "word": "And",
+   "start": 16.75,
+   "end": 16.92
+  },
+  {
+   "word": "that",
+   "start": 16.92,
+   "end": 17.09
+  },
+  {
+   "word": "really,",
+   "start": 17.09,
+   "end": 17.39
+  },
+  {
+   "word": "really",
+   "start": 17.39,
+   "end": 17.69
+  },
+  {
+   "word": "held",
+   "start": 17.69,
+   "end": 17.86
+  },
+  {
+   "word": "me",
+   "start": 17.86,
+   "end": 18.08
+  },
+  {
+   "word": "back.",
+   "start": 18.08,
+   "end": 18.27
+  },
+  {
+   "word": "What",
+   "start": 18.46,
+   "end": 18.75
+  },
+  {
+   "word": "changed",
+   "start": 18.75,
+   "end": 19.25
+  },
+  {
+   "word": "my",
+   "start": 19.25,
+   "end": 19.54
+  },
+  {
+   "word": "life",
+   "start": 19.54,
+   "end": 19.91
+  },
+  {
+   "word": "was",
+   "start": 19.91,
+   "end": 20.21
+  },
+  {
+   "word": "realizing",
+   "start": 20.4,
+   "end": 20.86
+  },
+  {
+   "word": "that",
+   "start": 20.86,
+   "end": 21.05
+  },
+  {
+   "word": "I",
+   "start": 21.05,
+   "end": 21.25
+  },
+  {
+   "word": "was",
+   "start": 21.25,
+   "end": 21.48
+  },
+  {
+   "word": "taking",
+   "start": 21.48,
+   "end": 21.88
+  },
+  {
+   "word": "advice",
+   "start": 21.88,
+   "end": 22.21
+  },
+  {
+   "word": "from",
+   "start": 22.21,
+   "end": 22.4
+  },
+  {
+   "word": "the",
+   "start": 22.4,
+   "end": 22.59
+  },
+  {
+   "word": "wrong",
+   "start": 22.59,
+   "end": 22.85
+  },
+  {
+   "word": "people",
+   "start": 22.85,
+   "end": 23.05
+  },
+  {
+   "word": "and",
+   "start": 23.25,
+   "end": 23.48
+  },
+  {
+   "word": "then",
+   "start": 23.48,
+   "end": 23.71
+  },
+  {
+   "word": "seeking",
+   "start": 23.71,
+   "end": 24.13
+  },
+  {
+   "word": "people",
+   "start": 24.13,
+   "end": 24.36
+  },
+  {
+   "word": "who",
+   "start": 24.36,
+   "end": 24.71
+  },
+  {
+   "word": "had",
+   "start": 24.71,
+   "end": 25.22
+  },
+  {
+   "word": "actually",
+   "start": 25.22,
+   "end": 25.78
+  },
+  {
+   "word": "achieved",
+   "start": 25.78,
+   "end": 26.37
+  },
+  {
+   "word": "the",
+   "start": 26.37,
+   "end": 26.6
+  },
+  {
+   "word": "life",
+   "start": 26.6,
+   "end": 26.95
+  },
+  {
+   "word": "that",
+   "start": 26.95,
+   "end": 27.48
+  },
+  {
+   "word": "I",
+   "start": 27.48,
+   "end": 27.71
+  },
+  {
+   "word": "wanted",
+   "start": 27.72,
+   "end": 28.18
+  },
+  {
+   "word": "to",
+   "start": 28.18,
+   "end": 28.47
+  },
+  {
+   "word": "live.",
+   "start": 28.47,
+   "end": 28.7
+  },
+  {
+   "word": "They",
+   "start": 28.71,
+   "end": 29.04
+  },
+  {
+   "word": "had",
+   "start": 29.04,
+   "end": 29.27
+  },
+  {
+   "word": "built",
+   "start": 29.27,
+   "end": 29.54
+  },
+  {
+   "word": "companies.",
+   "start": 29.54,
+   "end": 30.19
+  },
+  {
+   "word": "They",
+   "start": 30.19,
+   "end": 30.41
+  },
+  {
+   "word": "had",
+   "start": 30.41,
+   "end": 30.7
+  },
+  {
+   "word": "time",
+   "start": 30.7,
+   "end": 31.11
+  },
+  {
+   "word": "freedom.",
+   "start": 31.11,
+   "end": 31.73
+  },
+  {
+   "word": "Identify",
+   "start": 31.73,
+   "end": 32.39
+  },
+  {
+   "word": "where",
+   "start": 32.39,
+   "end": 32.58
+  },
+  {
+   "word": "you",
+   "start": 32.58,
+   "end": 32.77
+  },
+  {
+   "word": "wanna",
+   "start": 32.77,
+   "end": 33.09
+  },
+  {
+   "word": "go,",
+   "start": 33.09,
+   "end": 33.28
+  },
+  {
+   "word": "find",
+   "start": 33.32,
+   "end": 33.5
+  },
+  {
+   "word": "people",
+   "start": 33.5,
+   "end": 33.7
+  },
+  {
+   "word": "that",
+   "start": 33.7,
+   "end": 33.89
+  },
+  {
+   "word": "have",
+   "start": 33.89,
+   "end": 34.12
+  },
+  {
+   "word": "done",
+   "start": 34.12,
+   "end": 34.3
+  },
+  {
+   "word": "it",
+   "start": 34.3,
+   "end": 34.57
+  },
+  {
+   "word": "before,",
+   "start": 34.57,
+   "end": 35.0
+  },
+  {
+   "word": "and",
+   "start": 35.0,
+   "end": 35.25
+  },
+  {
+   "word": "get",
+   "start": 35.25,
+   "end": 35.44
+  },
+  {
+   "word": "their",
+   "start": 35.44,
+   "end": 35.62
+  },
+  {
+   "word": "advice.",
+   "start": 35.62,
+   "end": 36.07
+  },
+  {
+   "word": "And",
+   "start": 36.07,
+   "end": 36.26
+  },
+  {
+   "word": "you",
+   "start": 36.26,
+   "end": 36.45
+  },
+  {
+   "word": "will",
+   "start": 36.45,
+   "end": 36.68
+  },
+  {
+   "word": "get",
+   "start": 36.68,
+   "end": 36.9
+  },
+  {
+   "word": "ahead",
+   "start": 36.9,
+   "end": 37.36
+  },
+  {
+   "word": "much",
+   "start": 37.36,
+   "end": 37.55
+  },
+  {
+   "word": "quicker",
+   "start": 37.55,
+   "end": 37.93
+  },
+  {
+   "word": "than",
+   "start": 37.93,
+   "end": 38.12
+  },
+  {
+   "word": "I",
+   "start": 38.12,
+   "end": 38.6
+  },
+  {
+   "word": "did.",
+   "start": 38.6,
+   "end": 38.8
+  }
+ ]
+}

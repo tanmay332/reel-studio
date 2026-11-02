@@ -1,0 +1,20 @@
+# Footage and renders stay on this laptop
+clips/
+projects/**/renders/
+projects/**/*.mp4
+projects/**/*.mp3
+projects/**/import.log
+projects/**/import-progress.json
+studio/data*/*.mp4
+studio/data/render-job.json
+studio/data/render-progress.json
+studio/data/render.log
+*.mov
+*.MOV
+*.part
+
+# Secrets and installs
+.env
+node_modules/
+__pycache__/
+projects/**/*.tmp

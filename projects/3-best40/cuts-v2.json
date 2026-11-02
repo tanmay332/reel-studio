@@ -1,0 +1,72 @@
+{
+  "source": "clips/3.mp4",
+  "output": "projects/3-best40/renders/3-best40-cut-v2.mp4",
+  "segments": [
+    {
+      "in": 0.4,
+      "out": 3.85,
+      "note": "hook: So if you wanna stay broke, then take advice from people that are behind you.",
+      "text": "So if you wanna stay broke, then take advice from people that are behind you."
+    },
+    {
+      "in": 7.58,
+      "out": 12.9,
+      "note": "story: When I was working in private equity, I wanted to build businesses and I wanted to become a multimillionaire.",
+      "text": "When I was working in private equity, I wanted to build businesses and I wanted to become a multimillionaire."
+    },
+    {
+      "in": 13.33,
+      "out": 18.17,
+      "note": "mistake: I ended up taking advice from people that had not built companies",
+      "text": "I ended up taking advice from people that had not built companies"
+    },
+    {
+      "in": 18.48,
+      "out": 21.49,
+      "note": "mistake (cont.): and had never done anything that I wanted to achieve in the future.",
+      "text": "and had never done anything that I wanted to achieve in the future."
+    },
+    {
+      "in": 21.71,
+      "out": 23.41,
+      "note": "mistake lands (1.5 s pause cut after it): And that really, really held me back.",
+      "text": "And that really, really held me back."
+    },
+    {
+      "in": 24.86,
+      "out": 26.77,
+      "note": "turn: What changed my life was",
+      "text": "What changed my life was"
+    },
+    {
+      "in": 26.94,
+      "out": 29.78,
+      "note": "turn (cont.): realizing that I was taking advice from the wrong people",
+      "text": "realizing that I was taking advice from the wrong people"
+    },
+    {
+      "in": 30.1,
+      "out": 35.75,
+      "note": "turn (cont.): and then seeking people who had actually achieved the life that I wanted to live.",
+      "text": "and then seeking people who had actually achieved the life that I wanted to live."
+    },
+    {
+      "in": 36.21,
+      "out": 38.2,
+      "note": "proof: They had built companies. They had",
+      "text": "They had built companies. They had"
+    },
+    {
+      "in": 38.98,
+      "out": 40.0,
+      "note": "proof (0.9 s pause cut before it): time freedom.",
+      "text": "time freedom."
+    },
+    {
+      "in": 111.68,
+      "out": 118.76,
+      "note": "fix + payoff: Identify where you wanna go, find people that have done it before, and get their advice. And you will get ahead much quicker than I did.",
+      "text": "Identify where you wanna go, find people that have done it before, and get their advice. And you will get ahead much quicker than I did."
+    }
+  ]
+}

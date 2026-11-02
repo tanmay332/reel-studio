@@ -1,0 +1,60 @@
+{
+  "name": "Old edit",
+  "savedAt": "2026-10-29T14:40:00",
+  "clip": "3-best40-cut-v2",
+  "start": true,
+  "note": "The first test edit the user liked (claude-test-v1). The Studio opens with only its fonts and captions; click its card on Colours to load all of it.",
+  "picks": {
+    "grade": null,
+    "font": "editorial",
+    "caption": "twotone",
+    "hook": "launch",
+    "moves": [
+      "progress",
+      "closeup",
+      "whip",
+      "punch"
+    ],
+    "anims": {
+      "b2": [
+        "b2-split",
+        "b2-count"
+      ],
+      "b3": [
+        "b3-chat",
+        "b3-keyword"
+      ],
+      "b4": [
+        "b4-list",
+        "b4-emoji"
+      ],
+      "b5": [
+        "b5-notes",
+        "b5-steps"
+      ]
+    },
+    "sounds": [
+      "whoosh",
+      "pop",
+      "ping",
+      "typing",
+      "click"
+    ],
+    "off": [
+      "whip#b2",
+      "whip#b3",
+      "whip#b5",
+      "punch#0",
+      "punch#1",
+      "punch#2",
+      "punch#3",
+      "punch#4",
+      "punch#5"
+    ],
+    "mute": []
+  },
+  "startWith": [
+    "font",
+    "caption"
+  ]
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anjan Reel Cuts</title>
+<style>
+  :root { --bg:#f6f4ef; --ink:#1d1c1a; --muted:#77736b; --line:#dcd7cc; --card:#fffdf8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161513; --ink:#ece8df; --muted:#9a958a; --line:#2e2c28; --card:#1e1d1a; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 "Inter", system-ui, sans-serif; }
+  header { padding:32px 24px 8px; max-width:1500px; margin:auto; }
+  h1 { font:400 30px/1.2 Georgia, "Times New Roman", serif; margin:0 0 6px; }
+  header p { color:var(--muted); margin:0; letter-spacing:.02em; }
+  main { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:20px; padding:20px 24px 48px; max-width:1500px; margin:auto; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  h2 { font:400 20px Georgia, serif; margin:0 0 2px; }
+  .meta { color:var(--muted); font-size:12px; letter-spacing:.08em; text-transform:uppercase; margin-bottom:12px; }
+  video { width:100%; aspect-ratio:9/16; background:#000; border-radius:6px; display:block; }
+  ol { padding-left:20px; margin:14px 0 0; }
+  li { margin-bottom:8px; }
+  li span { color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; display:block; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Anjan Luthra: Reels 7 to 10</h1>
+  <p>Draft cuts, straight cuts only, every join placed in a natural pause. Nothing saved to output yet.</p>
+</header>
+<main id="grid"></main>
+<script>
+const reels = [
+  { n: 7, src: "reel07-cut-v1.mp4", segs: [
+    ["0:00.0–0:05.8", "So often people that help you start a company will not help you scale the company. I learned the hard way."],
+    ["0:06.3–0:08.9", "When you first start a company, you don't have any money,"],
+    ["0:11.9–0:28.3", "you do not have the budget to go out and hire super specialist people for every single task or department that you need in the company. So what do you do? You hire generalists. You hire gritty, hardworking, ambitious people that can do a little bit of everything."],
+    ["0:49.5–1:08.8", "But once you make a couple hundred grand and you've hopefully got some capital to reinvest back into the business, that's when you need to start hiring for experience and specialty, because as you want to scale the company to multiple millions, you need people that can take ownership and really know what they're doing in each vertical."],
+    ["1:37.5–1:41.0", "Specialists will help you scale, generalists will help you get started."]]},
+  { n: 8, src: "reel08-cut-v1.mp4", segs: [
+    ["0:00.0–0:07.6", "Most people disagree with this opinion, but I believe that you should take as much money out of your business as possible if you're starting with zero."],
+    ["0:08.1–0:13.1", "Because I want you to get to a certain number first, which protects your downside."],
+    ["0:13.4–0:24.7", "Once you have enough cash personally, you don't need to worry about paying rent and putting food on the table. That then allows you to make better long-term decisions for your business."],
+    ["0:27.2–0:37.7", "In my first business, it was VC funded. I raised a ton of money and I paid myself very little and I slogged it out for five years and the business didn't actually work out."],
+    ["0:49.4–1:01.3", "In my next business, I did the opposite. I started with a financial goal for myself personally and I said, I'm going to do everything I can to get to that personal number as quick as possible."],
+    ["1:26.9–1:30.9", "Think about yourself first, then take bigger swings. A lot less pressure."]]},
+  { n: 9, src: "reel09-cut-v1.mp4", segs: [
+    ["0:00.0–0:03.2", "If I started again with nothing and I wanted to get wealthy, I would do this."],
+    ["0:03.8–0:14.5", "I would pick a niche or a skill that is massively in demand and I would become a master at it. So let's take search engine optimization or AI implementation or videography."],
+    ["0:26.2–0:34.2", "I would then start exchanging my time for money and offering that as a service. I would do it for as many people as possible. I would run it super lean."],
+    ["0:38.6–0:41.5", "I wouldn't get an office. I wouldn't hire a big team."],
+    ["0:47.9–0:54.0", "I would focus on the American market to get American clients who pay thousands of dollars more than any other market."],
+    ["1:01.8–1:08.3", "I would take the cash out. I would invest it into the S&P 500 every single month to build a compounding asset for the long term."],
+    ["1:14.6–1:25.3", "And then over time I would create media leverage by recording videos to try and reach as many people as possible. That is the steps that I wish someone told me on how to get wealthy when I was younger."]]},
+  { n: 10, src: "reel10-cut-v1.mp4", segs: [
+    ["0:00.0–0:19.8", "On the days I really can't be bothered doing something, I do it anyway, but it's taken me quite a lot of time to get to this position. So how do I do it? Well, number one is recognizing that you are gonna have days where you really can't be bothered doing anything, and you're not alone. Even the best athletes in the world have days where they just can't be bothered training, but they still do it."],
+    ["0:23.3–0:36.6", "Number two is putting some sort of pressure or system in place to make you show up when you can't be bothered. And the way that I've done it is by hiring people to help me do things that I can't be bothered doing."],
+    ["1:06.5–1:13.7", "The third thing that has really helped me is also understanding that you are not going to achieve your goals if you're not consistent."],
+    ["1:26.1–1:35.6", "But doing something every single day towards that goal will really help you, because that builds momentum, it compounds, it creates confidence."]]},
+];
+const grid = document.getElementById("grid");
+for (const r of reels) {
+  const s = document.createElement("section");
+  s.innerHTML = `<h2>Reel ${r.n}</h2><div class="meta" id="m${r.n}">${r.segs.length} segments</div>
+    <video controls preload="metadata" playsinline src="${r.src}"></video>
+    <ol>${r.segs.map(([t, x]) => `<li><span>${t} in source</span>${x}</li>`).join("")}</ol>`;
+  const v = s.querySelector("video");
+  v.addEventListener("loadedmetadata", () => {
+    document.getElementById("m" + r.n).textContent = `${v.duration.toFixed(1)}s · ${r.segs.length} segments`;
+  });
+  grid.appendChild(s);
+}
+</script>
+</body>
+</html>

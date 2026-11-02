@@ -1,0 +1,707 @@
+{
+ "name": "img3052-ai-jobs-cut-v2",
+ "source": "projects/img3052-ai-jobs/renders/img3052-ai-jobs-cut-v2.mp4",
+ "video": "data/preview.mp4",
+ "proxy": "data/proxy.mp4",
+ "duration": 51.0,
+ "fps": 29.97,
+ "cuts": [
+  4.98,
+  5.8,
+  15.78,
+  16.68,
+  17.46,
+  19.52,
+  23.06,
+  30.46,
+  39.42,
+  42.94
+ ],
+ "words": [
+  {
+   "word": "Everyone",
+   "start": 0.0,
+   "end": 0.58
+  },
+  {
+   "word": "is",
+   "start": 0.58,
+   "end": 0.83
+  },
+  {
+   "word": "super",
+   "start": 0.83,
+   "end": 1.24
+  },
+  {
+   "word": "worried",
+   "start": 1.24,
+   "end": 1.66
+  },
+  {
+   "word": "about",
+   "start": 1.66,
+   "end": 2.08
+  },
+  {
+   "word": "AI",
+   "start": 2.08,
+   "end": 2.33
+  },
+  {
+   "word": "taking",
+   "start": 2.33,
+   "end": 2.75
+  },
+  {
+   "word": "their",
+   "start": 2.75,
+   "end": 2.99
+  },
+  {
+   "word": "jobs.",
+   "start": 2.99,
+   "end": 3.23
+  },
+  {
+   "word": "I've",
+   "start": 3.23,
+   "end": 3.65
+  },
+  {
+   "word": "hired",
+   "start": 3.65,
+   "end": 4.06
+  },
+  {
+   "word": "over",
+   "start": 4.06,
+   "end": 4.48
+  },
+  {
+   "word": "100",
+   "start": 4.48,
+   "end": 4.72
+  },
+  {
+   "word": "people,",
+   "start": 4.72,
+   "end": 4.96
+  },
+  {
+   "word": "Here's",
+   "start": 4.97,
+   "end": 5.35
+  },
+  {
+   "word": "my",
+   "start": 5.35,
+   "end": 5.57
+  },
+  {
+   "word": "take.",
+   "start": 5.57,
+   "end": 5.8
+  },
+  {
+   "word": "Claude",
+   "start": 5.81,
+   "end": 6.03
+  },
+  {
+   "word": "Code",
+   "start": 6.03,
+   "end": 6.25
+  },
+  {
+   "word": "can",
+   "start": 6.25,
+   "end": 6.48
+  },
+  {
+   "word": "write",
+   "start": 6.48,
+   "end": 6.7
+  },
+  {
+   "word": "code",
+   "start": 6.7,
+   "end": 6.92
+  },
+  {
+   "word": "very",
+   "start": 6.92,
+   "end": 7.31
+  },
+  {
+   "word": "quickly,",
+   "start": 7.31,
+   "end": 7.69
+  },
+  {
+   "word": "very",
+   "start": 7.69,
+   "end": 8.08
+  },
+  {
+   "word": "efficiently,",
+   "start": 8.08,
+   "end": 8.78
+  },
+  {
+   "word": "and",
+   "start": 8.78,
+   "end": 9.0
+  },
+  {
+   "word": "a",
+   "start": 9.0,
+   "end": 9.23
+  },
+  {
+   "word": "lot",
+   "start": 9.23,
+   "end": 9.45
+  },
+  {
+   "word": "better",
+   "start": 9.45,
+   "end": 9.84
+  },
+  {
+   "word": "than",
+   "start": 9.84,
+   "end": 10.06
+  },
+  {
+   "word": "most",
+   "start": 10.06,
+   "end": 10.28
+  },
+  {
+   "word": "developers.",
+   "start": 10.28,
+   "end": 10.99
+  },
+  {
+   "word": "So",
+   "start": 10.99,
+   "end": 11.21
+  },
+  {
+   "word": "the",
+   "start": 11.21,
+   "end": 11.44
+  },
+  {
+   "word": "natural",
+   "start": 11.44,
+   "end": 11.98
+  },
+  {
+   "word": "opinion",
+   "start": 11.98,
+   "end": 12.53
+  },
+  {
+   "word": "here",
+   "start": 12.53,
+   "end": 12.76
+  },
+  {
+   "word": "is",
+   "start": 12.76,
+   "end": 12.98
+  },
+  {
+   "word": "that",
+   "start": 12.98,
+   "end": 13.21
+  },
+  {
+   "word": "all",
+   "start": 13.21,
+   "end": 13.43
+  },
+  {
+   "word": "developers",
+   "start": 13.43,
+   "end": 14.13
+  },
+  {
+   "word": "are",
+   "start": 14.13,
+   "end": 14.52
+  },
+  {
+   "word": "absolutely",
+   "start": 14.52,
+   "end": 15.38
+  },
+  {
+   "word": "cooked.",
+   "start": 15.38,
+   "end": 15.76
+  },
+  {
+   "word": "I",
+   "start": 15.81,
+   "end": 16.0
+  },
+  {
+   "word": "actually",
+   "start": 16.0,
+   "end": 16.48
+  },
+  {
+   "word": "think",
+   "start": 16.48,
+   "end": 16.68
+  },
+  {
+   "word": "a",
+   "start": 16.68,
+   "end": 16.83
+  },
+  {
+   "word": "bit",
+   "start": 16.83,
+   "end": 16.98
+  },
+  {
+   "word": "differently.",
+   "start": 16.98,
+   "end": 17.45
+  },
+  {
+   "word": "If",
+   "start": 17.45,
+   "end": 17.66
+  },
+  {
+   "word": "you're",
+   "start": 17.66,
+   "end": 17.86
+  },
+  {
+   "word": "a",
+   "start": 17.86,
+   "end": 18.06
+  },
+  {
+   "word": "developer",
+   "start": 18.06,
+   "end": 18.7
+  },
+  {
+   "word": "that",
+   "start": 18.7,
+   "end": 18.91
+  },
+  {
+   "word": "can",
+   "start": 18.91,
+   "end": 19.11
+  },
+  {
+   "word": "sit",
+   "start": 19.11,
+   "end": 19.31
+  },
+  {
+   "word": "there,",
+   "start": 19.31,
+   "end": 19.52
+  },
+  {
+   "word": "and",
+   "start": 19.52,
+   "end": 19.87
+  },
+  {
+   "word": "you've",
+   "start": 19.87,
+   "end": 20.21
+  },
+  {
+   "word": "got",
+   "start": 20.21,
+   "end": 20.55
+  },
+  {
+   "word": "ten",
+   "start": 20.55,
+   "end": 20.89
+  },
+  {
+   "word": "Claude",
+   "start": 20.89,
+   "end": 21.22
+  },
+  {
+   "word": "sessions",
+   "start": 21.22,
+   "end": 21.8
+  },
+  {
+   "word": "open",
+   "start": 21.8,
+   "end": 22.38
+  },
+  {
+   "word": "at",
+   "start": 22.38,
+   "end": 22.72
+  },
+  {
+   "word": "once,",
+   "start": 22.72,
+   "end": 23.06
+  },
+  {
+   "word": "delivering",
+   "start": 23.06,
+   "end": 23.98
+  },
+  {
+   "word": "the",
+   "start": 23.98,
+   "end": 24.27
+  },
+  {
+   "word": "output",
+   "start": 24.27,
+   "end": 24.77
+  },
+  {
+   "word": "of",
+   "start": 24.77,
+   "end": 25.07
+  },
+  {
+   "word": "like",
+   "start": 25.07,
+   "end": 25.36
+  },
+  {
+   "word": "a",
+   "start": 25.36,
+   "end": 25.65
+  },
+  {
+   "word": "hundred",
+   "start": 25.65,
+   "end": 26.15
+  },
+  {
+   "word": "engineers",
+   "start": 26.15,
+   "end": 26.86
+  },
+  {
+   "word": "in",
+   "start": 26.86,
+   "end": 27.15
+  },
+  {
+   "word": "one",
+   "start": 27.15,
+   "end": 27.65
+  },
+  {
+   "word": "day,",
+   "start": 27.65,
+   "end": 27.94
+  },
+  {
+   "word": "then",
+   "start": 27.94,
+   "end": 28.24
+  },
+  {
+   "word": "you",
+   "start": 28.24,
+   "end": 28.53
+  },
+  {
+   "word": "are",
+   "start": 28.53,
+   "end": 29.03
+  },
+  {
+   "word": "extremely",
+   "start": 29.03,
+   "end": 29.94
+  },
+  {
+   "word": "valuable.",
+   "start": 29.94,
+   "end": 30.44
+  },
+  {
+   "word": "On",
+   "start": 30.45,
+   "end": 30.72
+  },
+  {
+   "word": "the",
+   "start": 30.72,
+   "end": 30.99
+  },
+  {
+   "word": "other",
+   "start": 30.99,
+   "end": 31.45
+  },
+  {
+   "word": "hand,",
+   "start": 31.45,
+   "end": 31.71
+  },
+  {
+   "word": "if",
+   "start": 31.71,
+   "end": 31.98
+  },
+  {
+   "word": "you",
+   "start": 31.98,
+   "end": 32.25
+  },
+  {
+   "word": "are",
+   "start": 32.25,
+   "end": 32.7
+  },
+  {
+   "word": "a",
+   "start": 32.7,
+   "end": 32.97
+  },
+  {
+   "word": "developer",
+   "start": 32.97,
+   "end": 33.81
+  },
+  {
+   "word": "that",
+   "start": 33.81,
+   "end": 34.08
+  },
+  {
+   "word": "is",
+   "start": 34.08,
+   "end": 34.34
+  },
+  {
+   "word": "still",
+   "start": 34.34,
+   "end": 34.61
+  },
+  {
+   "word": "operating",
+   "start": 34.61,
+   "end": 35.45
+  },
+  {
+   "word": "like",
+   "start": 35.45,
+   "end": 35.72
+  },
+  {
+   "word": "it's",
+   "start": 35.72,
+   "end": 35.98
+  },
+  {
+   "word": "2024,",
+   "start": 35.98,
+   "end": 36.25
+  },
+  {
+   "word": "and",
+   "start": 36.25,
+   "end": 36.52
+  },
+  {
+   "word": "taking",
+   "start": 36.52,
+   "end": 36.97
+  },
+  {
+   "word": "three",
+   "start": 36.97,
+   "end": 37.24
+  },
+  {
+   "word": "days",
+   "start": 37.24,
+   "end": 37.51
+  },
+  {
+   "word": "to",
+   "start": 37.51,
+   "end": 37.78
+  },
+  {
+   "word": "build",
+   "start": 37.78,
+   "end": 38.04
+  },
+  {
+   "word": "a",
+   "start": 38.04,
+   "end": 38.31
+  },
+  {
+   "word": "one-page",
+   "start": 38.31,
+   "end": 38.96
+  },
+  {
+   "word": "website,",
+   "start": 38.96,
+   "end": 39.41
+  },
+  {
+   "word": "then",
+   "start": 39.42,
+   "end": 39.68
+  },
+  {
+   "word": "you're",
+   "start": 39.68,
+   "end": 39.92
+  },
+  {
+   "word": "absolutely",
+   "start": 39.92,
+   "end": 40.87
+  },
+  {
+   "word": "cooked,",
+   "start": 40.87,
+   "end": 41.29
+  },
+  {
+   "word": "like,",
+   "start": 41.29,
+   "end": 41.54
+  },
+  {
+   "word": "it's",
+   "start": 41.54,
+   "end": 41.78
+  },
+  {
+   "word": "game",
+   "start": 41.78,
+   "end": 42.03
+  },
+  {
+   "word": "over",
+   "start": 42.03,
+   "end": 42.45
+  },
+  {
+   "word": "for",
+   "start": 42.45,
+   "end": 42.69
+  },
+  {
+   "word": "you.",
+   "start": 42.69,
+   "end": 42.93
+  },
+  {
+   "word": "So,",
+   "start": 42.94,
+   "end": 43.3
+  },
+  {
+   "word": "upskill",
+   "start": 43.3,
+   "end": 43.9
+  },
+  {
+   "word": "in",
+   "start": 43.9,
+   "end": 44.25
+  },
+  {
+   "word": "AI,",
+   "start": 44.25,
+   "end": 44.6
+  },
+  {
+   "word": "learn",
+   "start": 44.6,
+   "end": 44.95
+  },
+  {
+   "word": "how",
+   "start": 44.95,
+   "end": 45.3
+  },
+  {
+   "word": "to",
+   "start": 45.3,
+   "end": 45.65
+  },
+  {
+   "word": "use",
+   "start": 45.65,
+   "end": 46.25
+  },
+  {
+   "word": "Claude",
+   "start": 46.25,
+   "end": 46.6
+  },
+  {
+   "word": "Code,",
+   "start": 46.6,
+   "end": 46.95
+  },
+  {
+   "word": "and",
+   "start": 46.95,
+   "end": 47.3
+  },
+  {
+   "word": "become",
+   "start": 47.3,
+   "end": 47.9
+  },
+  {
+   "word": "an",
+   "start": 47.9,
+   "end": 48.25
+  },
+  {
+   "word": "absolute",
+   "start": 48.25,
+   "end": 49.1
+  },
+  {
+   "word": "weapon",
+   "start": 49.1,
+   "end": 49.7
+  },
+  {
+   "word": "with",
+   "start": 49.7,
+   "end": 50.05
+  },
+  {
+   "word": "using",
+   "start": 50.05,
+   "end": 50.65
+  },
+  {
+   "word": "it.",
+   "start": 50.65,
+   "end": 50.99
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "editing-studio",
+  "private": true,
+  "description": "Local tools for Claude's editing studio",
+  "dependencies": {
+    "playwright-core": "^1.59.1"
+  }
+}
